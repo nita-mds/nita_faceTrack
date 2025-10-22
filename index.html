@@ -13,7 +13,7 @@
       device-orientation-permission-ui="enabled: false">
       
       <a-assets>
-        <a-asset-item id="mask-model" src="./yoruba_mask.glb"></a-asset-item>
+        <a-asset-item id="mask-model" src="./bananamilk.glb"></a-asset-item>
       </a-assets>
 
       <!-- The camera is managed by MindAR, but we need an entity for it -->
@@ -26,12 +26,13 @@
       <a-entity mindar-face-target="anchorIndex: 168" rotation="90 0 0">
         <a-gltf-model
           src="#mask-model"
-          position="0 0 0"
+          position="0 30 0"
           rotation="0 -90 0"
-          scale="5 5 5">
+          scale="0.5 0.5 0.5">
         </a-gltf-model>
       </a-entity>
 
     </a-scene>
   </body>
 </html>
+
